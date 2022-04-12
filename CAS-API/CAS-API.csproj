@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>CAS_API</RootNamespace>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\tw\.nuget\packages\docuvieware\3.1.0.159\contentFiles\any\any\wwwroot\css\docuvieware-min.css" />
+    <Content Remove="C:\Users\tw\.nuget\packages\docuvieware\3.1.0.159\contentFiles\any\any\wwwroot\js\docuvieware-min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocuVieware" Version="3.1.0.159" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="GdPicture.NET.14.WEB.DocuVieware.Core">
+      <HintPath>D:\GdPicture.NET 14\Redist\DocuVieware (.NET Core 3.1)\GdPicture.NET.14.WEB.DocuVieware.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Navbar {
+    line-height: 0 !important;
+}
+
+.k-icon-16 {
+    font-size: 16px; /* Sets icon size to 16px */
+}
+
+.k-icon-24 {
+    font-size: 24px; /* Sets icon size to 24px */
+}
+
+.k-icon-32 {
+    font-size: 32px; /* Sets icon size to 32px */
+}
+
+.k-icon-48 {
+    font-size: 48px; /* Sets icon size to 48px */
+}
+
+.k-icon-64 {
+    font-size: 64px; /* Sets icon size to 64px */
+}
+
+.pdftrondiv {
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 94.5vh;
+}
+
+.pdftron {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.savepdfbutton {
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    right: 8%;
+    bottom: 1%;
+}
+
+.documentClickDialogStyle {
+    margin: 25px,;
+    text-align: center;
+}
+
+.documentListGridStyle {
+    height: 400px;
+}
+
+.dvContainerStyle {
+    height: 95.1vh;
+    width: 100%;
+}
+
+.dokumentenUploadStyle{
+    margin-right: 20px;
+}
+
+.docuViewareStyle{
+    margin-right: 20px;
+}
+
+.pdfTronStyle{
+    margin-right: 40px;
+}
+
+.webviewerStyle{
+    height: 100%;
+}
+
+.appBarSectionSpanStyle{
+    cursor: pointer;
+}
